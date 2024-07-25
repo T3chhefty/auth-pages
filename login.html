@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login | akanta</title>
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+  </head>
+  <body class="p-3">
+    <h3 class="font-[800] text-btncolor text-2xl mb-[4rem] xxsm:mb-1">AKANTA</h3>
+
+
+
+    <section
+      class="w-[100%]  mx-auto mt-[5rem]  flex flex-col  lg:w-[50%] sm:w-[70%]   xxsm:w-[100%] h-auto"
+    >
+
+    
+    <div class="my-[7rem] xxsm:my-[0.5rem] ">
+      <h1 class="font-[700] text-3xl xxsm:text-xl">Welcome Back</h1>
+      <p class="font-semibold text-xl xxsm:text-sm">log In to continue</p>
+    </div>
+
+      <form action="" class="w-[100%] h-auto m-[auto]  flex flex-col   xxsm:w-[100%]">
+       
+
+        <div class="flex flex-col w-[100%]">
+          <label for="email" class="my-4 font-[600] xxsm:my-2 xxsm:text-sm">Email/Phone Number</label>
+          <input
+            type="text"
+            id="email"
+            placeholder="Enter Email or phone number"
+            class="border-2 border-gray-300 p-3 w-[100%] h-[3rem] rounded-lg outline-none mb-3"
+          />
+        </div>
+
+        <div class="w-[100%]">
+          <div class="flex justify-between w-[100%]">
+            <label for="password" class="font-[600] xxsm:text-sm">Enter Password</label>
+            <a href="recoverpassword.html" class="font-[600] xxsm:text-sm">
+              Forgot Password</a
+            >
+          </div>
+
+          <div
+            class="flex justify-between border-2 border-gray-300 p-3 w-[100%] h-[3rem] rounded-lg mt-4 "
+          >
+            <input
+              type="password"
+              name=""
+              id="password"
+              placeholder="Enter password"
+              class="w-[90%] outline-none"
+            />
+            <img
+              src="assets/img/hide.png"
+              alt="eyeIcon"
+              class="w-[9%] lg:w-[6%] cursor-grab"
+              id="password-eye"
+            />
+          </div>
+
+          <div class="flex justify-start content-center items-center mt-4 w-[100%] mb-6">
+            <input type="checkbox" name="" id="remember-me" class="mr-4" />
+            <label for="remember-me">Remember me</label>
+          </div>
+        </div>
+
+        <input
+          type="submit"
+          value="Sign in"
+          class="bg-btncolor w-[100%] h-[2.5rem] rounded-lg  mb-[4rem] xxsm:mt-1 xxsm:mb-1"
+        />
+      </form>
+      <!-- sign up form ends here -->
+      <p class="my-[4rem] text-center xxsm:my-1">
+        Don't have an account?
+        <a href="signup.html" class="text-btncolor">sign up</a>
+      </p>
+    </section>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
